@@ -50,11 +50,11 @@
 
                             // detect target found
 
-                            for (i=1;i<=6;i++) {
+                            for (i=1;i<=10;i++) {
 
                                 targets[i-1].addEventListener("targetFound", event => {
 
-                                    const trgt = parseInt(event.target.id.charAt(6));
+                                    const trgt = parseInt(event.target.id.charAt(10));
 
                                     maxCount = quant[trgt-1]
 
